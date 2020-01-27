@@ -28,9 +28,7 @@ let a = 1,
             setInterval(function () {
                 document.getElementById('inner').classList.remove('clock-inner_green');
                 document.getElementById('demo1').classList.remove('container_green');
-                document.getElementById('demo1').classList.add('container_no-animate');
-
-            }, 1500);
+            }, 1000);
             a++;
         }
     }, 6000);
