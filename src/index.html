@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <div id="demo1" class="container container_red">
+    <div id="demo1" class="container">
         ............................................................
     </div>
     <div class="container__loading">
         Loading<span>.</span><span>.</span><span>.</span>
     </div>
     <div class="loader-container">
-        <div class="loader">
+        <div id="loader" class="loader loader_hidden">
             <span>0%</span>
             <span>1%</span>
             <span>2%</span>
@@ -145,10 +145,11 @@
     </div>
     <div class="container">
         <div class="clock">
-            <div id="inner" class="clock-inner">
+            <div id="inner" class="clock-inner clock-inner_hidden">
                 <div class="clock-minutes"></div>
             </div>
         </div>
+        <script src="js/jQueryCompressed.js"></script>
         <script src="js/circletype.min.js"></script>
         <script src="js/script.js"></script>
 </body>
